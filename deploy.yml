@@ -12,7 +12,7 @@ apiVersion: apps/v1
 	name: myweb-pod1
 	labels:
 	  env: production
-	spec:
-	  containers:
-	    - name: myweb-con1
-	      image: ashishmangal/kube:latest
+     spec:
+	containers:
+	  - name: myweb-con1
+	    image: ashishmangal/kube:latest
